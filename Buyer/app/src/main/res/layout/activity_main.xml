@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2713A5"
+            android:padding="100sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#583FFA"
+            android:layout_marginTop="15sp"
+            android:padding="20sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_white"
+            android:layout_marginTop="33sp"
+            android:layout_marginStart="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Buyer"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginStart="70sp"
+            android:layout_marginTop="30sp"
+            />
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="20sp"
+            android:src="@drawable/check"
+            android:layout_marginTop="33sp"
+            android:layout_marginStart="330sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organisation Name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginStart="60sp"
+            android:layout_marginTop="110sp"
+            />
+        <EditText
+            android:id="@+id/editone"
+            android:layout_width="300sp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="150sp"
+            android:hint=""/>
+        <TextView
+            style="@style/edittext1"
+            android:text="Customer Name"
+            android:layout_marginTop="250sp"
+            />
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/contacts"
+            android:layout_marginTop="255sp"/>
+
+        <EditText
+            style="@style/edittext"
+            android:layout_marginTop="255sp"/>
+
+        <TextView
+            style="@style/edittext1"
+            android:text="Mobile Number"
+            android:layout_marginTop="320sp"/>
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/call"
+            android:layout_marginTop="325sp"/>
+
+        <EditText
+            style="@style/edittext"
+            android:layout_marginTop="325sp"/>
+
+        <TextView
+            style="@style/edittext1"
+            android:text="Email"
+            android:layout_marginTop="390sp"/>
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/email"
+            android:layout_marginTop="390sp"/>
+        <EditText
+            style="@style/edittext"
+            android:layout_marginTop="395sp"/>
+        <TextView
+            style="@style/edittext1"
+            android:text="Address"
+            android:layout_marginTop="465sp"/>
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/loctaion"
+            android:layout_marginTop="470sp"/>
+
+        <EditText
+            style="@style/edittext"
+            android:layout_marginTop="470sp"/>
+        <TextView
+            style="@style/edittext1"
+            android:text="Manufacturer"
+            android:layout_marginTop="540sp"/>
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/manufacturer"
+            android:layout_marginTop="545sp"/>
+        <EditText
+            style="@style/edittext"
+            android:hint="Select manufacturer"
+            android:layout_marginTop="545sp"/>
+        <TextView
+            style="@style/edittext1"
+            android:text="Tax ID"
+            android:layout_marginTop="610sp"/>
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/tex"
+            android:layout_marginTop="615sp"/>
+        <EditText
+            style="@style/edittext"
+            android:layout_marginTop="615sp"/>
+        <TextView
+            style="@style/edittext1"
+            android:text="Company ID"
+            android:layout_marginTop="680sp"/>
+        <ImageView
+            style="@style/edittext2"
+            android:src="@drawable/fingerprint"
+            android:layout_marginTop="685sp"/>
+        <EditText
+            style="@style/edittext"
+            android:layout_marginTop="685sp"/>
+    </RelativeLayout>
+
+</ScrollView>

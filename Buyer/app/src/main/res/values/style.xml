@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Buyer">
+        <item name="android:layout_width">@dimen/sp_300</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dp_20</item>
+        <item name="android:layout_margin">@dimen/dp_20</item>
+        <item name="android:background">@drawable/edittext</item>
+    </style>
+    <style name="edittext">
+        <item name="android:layout_width">300sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">60sp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+    <style name="edittext1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">60sp</item>
+
+    </style>
+    <style name="edittext2">
+        <item name="android:layout_width">40sp</item>
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_marginStart">15sp</item>
+
+    </style>
+
+</resources>
